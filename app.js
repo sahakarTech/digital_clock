@@ -21,6 +21,6 @@ if(hours>12){
     meridian = "pm"
 }
 
-document.getElementsByClassName("time").innerText = `${hours}:${minutes} ${meridian}`;
-document.getElementsByClassName("day").innerText = `Today is ${today}`;
-document.getElementsByClassName("wishes").innerText = `Good ${wish}`;
+document.getElementsByClassName("time")[0].innerText = `${hours}:${minutes} ${meridian}`;
+document.getElementsByClassName("day")[0].innerText = `Today is ${today}`;
+document.getElementsByClassName("wishes")[0].innerText = `Good ${wish}`;
