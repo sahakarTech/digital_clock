@@ -9,3 +9,6 @@ Tech stack:
 
 
 Author : Sudheer Reddy
+
+
+Use digital clock at https://sahakartech.github.io/digital_clock/
